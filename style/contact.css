@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background-color: white;
+    color: black;
+}
+
+.logo {
+    font-family:fantasy;
+    font-weight: bold;
+    color: rgb(4, 66, 105);
+    font-size: 25px;
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    
+}
+span {
+    color: darkcyan;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar {
+    background-color: lightgrey;
+    padding: 10px;
+    width: 100%;
+}
+
+.features {
+    display: flex;
+    margin-right: 30px;
+    border-style:outset;
+    border-radius: 40px;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    cursor: pointer;
+}
+
+.features:hover {
+    background-color: rgb(137, 137, 177);
+    transition: all 0.5s ease-in-out;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+
+h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.contactContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
