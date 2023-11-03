@@ -175,26 +175,13 @@ button:hover {
     opacity: 1;
 }
 
-.active.reveal-left {
-    animation: fade-left 1s ease;
-  }
 
 .active.float {
     animation: float 2s ease-in-out;
 }
    
   
-  @keyframes fade-left {
-    0% {
-      transform: translateX(-100px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-
+ 
   @keyframes float {
     0% {
       box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
