@@ -2,11 +2,11 @@ body {
     margin: 0;
     background-color: black;
     color: white;
-    max-width: 420px;
+    max-width: 450px;
 }
 
 .logo {
-    font-family:fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     color: rgb(4, 66, 105);
     font-size: 25px;
@@ -31,7 +31,7 @@ span {
 .navbar {
     background-color: lightgrey;
     padding: 10px;
-    width: 100%;
+    width: 450px;
 }
 
 .features {
@@ -61,10 +61,14 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.images {
+    max-width: 450px;
+}
 .cartPic {
     height: 280px;
     margin: 2px;
     border-radius: 10px;
+    max-width: 450px;
 }
 
 .heroP {
