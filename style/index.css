@@ -176,7 +176,7 @@ button:hover {
 }
 
 .active.reveal-left {
-    animation: fade-left 2s ease-in-out;
+    animation: fade-left 1s ease;
   }
 
 .active.float {
