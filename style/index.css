@@ -139,6 +139,7 @@ h1, h3 {
     .categoriesContainer {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        width: 1500px;
     }
 }
 
