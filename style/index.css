@@ -141,6 +141,17 @@ h1, h3 {
         grid-template-columns: 1fr 1fr;
         width: 1500px;
     }
+
+     .cartPic {
+        display: block;
+        margin: 0px auto;
+        height: 350px;
+        border-radius: 20px;
+    }
+
+    .navbar {
+        width: 1500px;
+    }
 }
 
 .footer {
