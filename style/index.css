@@ -212,7 +212,7 @@ button:hover {
     border-color: black;
     color: black;
     margin-top: 30px;
-    max-width: 450px;
+    width: 450px;
 }
 
 @media (min-width:600px) {
