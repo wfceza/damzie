@@ -135,7 +135,7 @@ h1, h3 {
 }
 
 
-@media (min-width: 545px) {
+@media (max-width: 545px) {
     .categoriesContainer {
         display: grid;
         grid-template-columns: 1fr 1fr;
