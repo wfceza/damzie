@@ -2,11 +2,10 @@ body {
     margin: 0;
     background-color: black;
     color: white;
-    max-width: 450px;
 }
 
 .logo {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:fantasy;
     font-weight: bold;
     color: rgb(4, 66, 105);
     font-size: 25px;
@@ -31,7 +30,6 @@ span {
 .navbar {
     background-color: lightgrey;
     padding: 10px;
-    width: 450px;
 }
 
 .features {
@@ -56,23 +54,19 @@ a:hover {
     color: white;
 }
 
+.heroSection {
+    
+}
+
 h2 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.images {
-    max-width: 450px;
-}
 .cartPic {
     height: 280px;
     margin: 2px;
     border-radius: 10px;
-    max-width: 450px;
-}
-
-.heroImage {
-    max-width: 450px;
 }
 
 .heroP {
@@ -82,27 +76,6 @@ h2 {
     opacity: 0.6;
 }
 
-.reveal {
-    max-width: 450px;
-}
-
-
-@media (min-width: 600px) {
-    .cartPic {
-        display: block;
-        margin: 0px auto;
-        height: 350px;
-        border-radius: 20px;
-    }
-
-    .heroP {
-        text-align: center;
-    }
-    .heroImage {
-        display: block;
-        margin: 0 auto;
-    }
-}
 
 h4 {
     text-align: center;
@@ -115,44 +88,6 @@ h1, h3 {
     text-align: center;
 }
 
-
-
-
-
-@media (min-width: 980px) {
-    .categoriesContainer {
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        column-gap: 20px;
-    }
-}
-
-@media (min-width: 1300px) {
-    .categoriesContainer {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr
-    }
-}
-
-
-@media (max-width: 545px) {
-    .categoriesContainer {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        width: 1500px;
-    }
-
-     .cartPic {
-        display: block;
-        margin: 0px auto;
-        height: 350px;
-        border-radius: 20px;
-    }
-
-    .navbar {
-        width: 1500px;
-    }
-}
 
 .footer {
     margin-left: 10px;
@@ -199,13 +134,26 @@ button:hover {
     opacity: 1;
 }
 
+.active.reveal-left {
+    animation: fade-left 2s ease-in-out;
+  }
 
 .active.float {
     animation: float 2s ease-in-out;
 }
    
   
- 
+  @keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
   @keyframes float {
     0% {
       box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
@@ -235,12 +183,6 @@ button:hover {
     width: 450px;
 }
 
-@media (min-width:600px) {
-    .socials {
-        display: flex;
-        width: 1500px;
-    }
-}
 
 .socialsImages {
     height: 50px;
