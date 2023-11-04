@@ -67,6 +67,7 @@ h2 {
     height: 280px;
     margin: 2px;
     border-radius: 10px;
+    width: 440px;
 }
 
 .heroP {
@@ -74,6 +75,10 @@ h2 {
     margin: 10px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     opacity: 0.6;
+}
+
+.heroImage {
+    width: 440px;
 }
 
 
