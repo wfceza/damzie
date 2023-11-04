@@ -186,7 +186,7 @@ button:hover {
     border-color: black;
     color: black;
     margin-top: 30px;
-    width: 450px;
+    width: 502px;
 }
 
 
@@ -198,3 +198,31 @@ button:hover {
     align-items: center;
     justify-content: space-between;
 } 
+
+
+@media (min-width: 545px) {
+    .categoriesContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;  
+    }
+
+    .heroSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .collection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .socials {
+        width: 100%;
+    }
+
+}
